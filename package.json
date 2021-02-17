@@ -1,0 +1,25 @@
+{
+  "name": "sigi-example",
+  "version": "0.0.0",
+  "description": "Examples for sigi framework",
+  "repository": "https://github.com/sigi-framework/sigi",
+  "author": "lynweklm@gmail.com",
+  "license": "MIT",
+  "workspaces": ["../packages/*", "./packages/*"],
+  "private": true,
+  "scripts": {
+    "start": "node ./cli.js",
+    "test": "jest --config ./packages/recipes-writing-tests/jest.config.js"
+  },
+  "dependencies": {
+    "@abraham/reflection": "^0.7.0",
+    "antd": "^4.12.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/parcel-env": "^0.0.0",
+    "parcel": "^1.12.4"
+  }
+}
