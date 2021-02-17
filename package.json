@@ -1,21 +1,21 @@
 {
-  "name": "sigi-example",
-  "version": "0.0.0",
-  "description": "Examples for sigi framework",
-  "repository": "https://github.com/sigi-framework/sigi",
-  "author": "lynweklm@gmail.com",
+  "name": "sigi-demo",
+  "version": "0.0.1",
+  "description": "test for sigi framework",
+  "repository": "https://github.com/wsafight/Sign-demo",
   "license": "MIT",
-  "workspaces": ["../packages/*", "./packages/*"],
   "private": true,
-  "scripts": {
-    "start": "node ./cli.js",
-    "test": "jest --config ./packages/recipes-writing-tests/jest.config.js"
-  },
+  "scripts": {},
   "dependencies": {
     "@abraham/reflection": "^0.7.0",
     "antd": "^4.12.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "@sigi/core": "^2.5.1",
+    "@sigi/react": "^2.7.0",
+    "@sigi/react-router": "^2.7.0",
+    "@sigi/di": "^2.4.4",
+    "@sigi/testing": "^2.6.0",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
