@@ -3,6 +3,7 @@
     "outDir": "dist",
     "module": "esnext",
     "lib": ["dom", "esnext"],
+    "target": "es5",
     "moduleResolution": "node",
     "sourceMap": true,
     "declaration": true,
@@ -14,7 +15,9 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "experimentalDecorators": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
